@@ -1,20 +1,21 @@
-# TREND RIDER SESSION VERDICT - made 25 Nov 2026 07:40 New York
+# TREND RIDER SESSION VERDICT - made 25 Nov 2026 09:15 New York
 # Trading day = the New York date of the day that opens 18:00 NY the evening before.
 # Sessions (New York time): ASIA 18:00-03:00, LONDON 03:00-09:30, NY 09:30-18:00
 # TRADE = normal | REDUCE = first trade of a run only | SKIP = no new entries
+# BIAS = BUY / SELL / NONE for the whole trading day (Trend Rider 026U+: no new entries against it)
 # Background: Fed priced ~96% for a December HIKE; gold at 1-year+ lows and trending down;
-# US-Iran / Strait of Hormuz headlines still moving oil; US-China-Russia talks ongoing.
+# US and German indices in a two-week risk-off slide; oil whipsawed by US-Iran / Hormuz headlines.
 
 DATE=2026-11-26
-XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP | Thanksgiving: US closed, early CFD close, thin liquidity
-GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP | Europe normal; US holiday afternoon is thin
-NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP | US cash market closed for Thanksgiving
-DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP | US cash market closed for Thanksgiving
-USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP | Iran / Hormuz headline risk; holiday-thin, early close
+XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=SELL | Hike pricing, 1-yr lows; Thanksgiving: US closed, early close
+GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP BIAS=SELL | Two-week risk-off slide; thin US holiday afternoon
+NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=SELL | Risk-off slide; US cash market closed for Thanksgiving
+DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=SELL | Risk-off slide; US cash market closed for Thanksgiving
+USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE | Iran / Hormuz headlines both ways; holiday-thin, early close
 
 DATE=2026-11-27
-XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP | Day after Thanksgiving: US half day, thin then Friday close
-GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP | Europe normal; thin US afternoon into the weekend
-NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP | US half day
-DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP | US half day
-USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP | headline risk; thin into the weekend
+XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=SELL | Hike pricing; US half day then Friday close
+GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP BIAS=SELL | Risk-off slide; thin US afternoon into the weekend
+NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=SELL | US half day
+DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=SELL | US half day
+USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE | Headline risk both ways; thin into the weekend
