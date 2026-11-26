@@ -1,12 +1,12 @@
-# TREND RIDER SESSION VERDICT - made 26 Nov 2026 02:25 New York (pre-London update)
+# TREND RIDER SESSION VERDICT - made 26 Nov 2026 16:05 New York (pre-Asia run)
 # Trading day = the New York date of the day that opens 18:00 NY the evening before.
 # Sessions (New York time): ASIA 18:00-03:00, LONDON 03:00-09:30, NY 09:30-18:00
 # TRADE = normal | REDUCE = first trade of a run only | SKIP = no new entries
 # BIAS_ASIA / BIAS_LONDON / BIAS_NY = BUY / SELL / NONE per session (Trend Rider 026W+);
 # BIAS = day bias for 026U / 026V (and for any session without its own word). No new entries against the bias.
-# Background: Hot Oct PCE (core 3.3%) -> Fed ~98% priced for a December HIKE; gold at 15-month lows; DAX at July lows
-# on AI selling + new US tariffs on EU; Nasdaq near bear market but rebounded off -4%; Dow above 50k; Thanksgiving Thu.
-# Overnight 26 Nov: AI trade rebound, Asia +1-2%, DAX fut +2%, NQ +0.9%; gold rebounded off <3450 but failed at 3600; Houthi/Hormuz strikes lift oil.
+# Background: Fed priced for a Dec HIKE; gold bounced off 15-month low (~3450) to ~3570, capped at 3600. DAX +2.1% Thu
+# on milder-than-feared US tariffs and AI rebound (reversal of the slide). Houthi/Saudi refinery + Hormuz mine strikes lift oil.
+# Fri 27 Nov: Black Friday - US stocks close 13:00 NY, CME early close; thin liquidity into the weekend (Hormuz gap risk).
 
 DATE=2026-11-26
 XAUUSD ASIA=TRADE LONDON=REDUCE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=NONE BIAS_NY=NONE | LDN update: sharp rebound off 3450 low, capped at 3600; hike pricing vs lower yields
@@ -16,8 +16,8 @@ DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NO
 USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Hormuz tanker attacks vs supply glut, headlines both ways; holiday-thin
 
 DATE=2026-11-27
-XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=SELL BIAS_NY=SELL | Fed hike pricing, downtrend; US half day then Friday close
-GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=SELL BIAS_NY=SELL | AI/tariff slide; DE jobs 03:55; thin US half day into weekend
+XAUUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Fed hike bets vs short-covering bounce off 15m low; US half day, weekend
+GECEUR ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Sharp +2% reversal on milder US tariffs; downtrend broken; Friday thin
 NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | AI rout vs rebound; US half day (13:00 close), weekend gap risk
-DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Rotation vs risk-off conflict; US half day, weekend gap risk
-USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Iran/Hormuz headlines both ways; thin into the weekend
+DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Rotation vs tariff/AI risk conflict; US half day, weekend gap risk
+USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Saudi refinery/Hormuz mine strikes vs glut; headline whipsaw, weekend gap
