@@ -1,4 +1,4 @@
-# TREND RIDER SESSION VERDICT - made 25 Nov 2026 16:10 New York (pre-Asia run)
+# TREND RIDER SESSION VERDICT - made 26 Nov 2026 02:25 New York (pre-London update)
 # Trading day = the New York date of the day that opens 18:00 NY the evening before.
 # Sessions (New York time): ASIA 18:00-03:00, LONDON 03:00-09:30, NY 09:30-18:00
 # TRADE = normal | REDUCE = first trade of a run only | SKIP = no new entries
@@ -6,10 +6,11 @@
 # BIAS = day bias for 026U / 026V (and for any session without its own word). No new entries against the bias.
 # Background: Hot Oct PCE (core 3.3%) -> Fed ~98% priced for a December HIKE; gold at 15-month lows; DAX at July lows
 # on AI selling + new US tariffs on EU; Nasdaq near bear market but rebounded off -4%; Dow above 50k; Thanksgiving Thu.
+# Overnight 26 Nov: AI trade rebound, Asia +1-2%, DAX fut +2%, NQ +0.9%; gold rebounded off <3450 but failed at 3600; Houthi/Hormuz strikes lift oil.
 
 DATE=2026-11-26
-XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=SELL BIAS_NY=SELL | Hot PCE, Fed hike priced, 15-month lows; US closed for Thanksgiving
-GECEUR ASIA=REDUCE LONDON=TRADE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=SELL BIAS_NY=SELL | AI selloff + US tariffs on EU, July lows; ECB accounts 07:30; US holiday
+XAUUSD ASIA=TRADE LONDON=REDUCE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=NONE BIAS_NY=NONE | LDN update: sharp rebound off 3450 low, capped at 3600; hike pricing vs lower yields
+GECEUR ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=SELL BIAS_ASIA=SELL BIAS_LONDON=NONE BIAS_NY=NONE | LDN update: futures gap +2% on AI rebound, sell bias reversed; ECB accounts 07:30
 NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | AI rout but sharp rebound off -4% Wed; US cash closed Thanksgiving
 DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Dow rising on rotation (above 50k) vs tech rout; US closed Thanksgiving
 USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Hormuz tanker attacks vs supply glut, headlines both ways; holiday-thin
