@@ -1,4 +1,4 @@
-# TREND RIDER SESSION VERDICT - made 26 Nov 2026 16:05 New York (pre-Asia run)
+# TREND RIDER SESSION VERDICT - made 26 Nov 2026 19:12 New York (owner reset of 27 Nov to the new geopolitical-only rules)
 # Trading day = the New York date of the day that opens 18:00 NY the evening before.
 # Sessions (New York time): ASIA 18:00-03:00, LONDON 03:00-09:30, NY 09:30-18:00
 # TRADE = normal | REDUCE = first trade of a run only | SKIP = no new entries
@@ -16,8 +16,8 @@ DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NO
 USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Hormuz tanker attacks vs supply glut, headlines both ways; holiday-thin
 
 DATE=2026-11-27
-XAUUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Fed hike bets vs short-covering bounce off 15m low; US half day, weekend
-GECEUR ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Sharp +2% reversal on milder US tariffs; downtrend broken; Friday thin
-NACUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | AI rout vs rebound; US half day (13:00 close), weekend gap risk
-DJCUSD ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Rotation vs tariff/AI risk conflict; US half day, weekend gap risk
-USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Saudi refinery/Hormuz mine strikes vs glut; headline whipsaw, weekend gap
+XAUUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | No geopolitical or transient event; NY SKIP = US early close 13:00 (Black Friday)
+GECEUR ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | No geopolitical or transient event; NY SKIP = US early close 13:00 (Black Friday)
+NACUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | No geopolitical or transient event; NY SKIP = US cash early close 13:00
+DJCUSD ASIA=TRADE LONDON=TRADE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | No geopolitical or transient event; NY SKIP = US cash early close 13:00
+USOIL ASIA=REDUCE LONDON=REDUCE NY=SKIP BIAS=NONE BIAS_ASIA=NONE BIAS_LONDON=NONE BIAS_NY=NONE | Live Saudi refinery / Hormuz mine strike headlines flipping; NY SKIP = CME early close
